@@ -8,13 +8,13 @@ function createCard(newToDo) {
     newCardContainer.className = "col s3";
   
     newCardContainer.innerHTML = `
-      <div class="card horizontal">
+      <div class="card horizontal pink lighten-5">
           <div class="card-stacked">
               <div class="card-content">
                   <p>${newToDo}</p>
               </div>
               <div class="card-action">
-                  <a href="#" onclick="removeCard(this)">Remove Item</a>
+                  <a href="#" class="black-text" onclick="removeCard(this)">Remove Item</a>
               </div>
           </div>
       </div>
